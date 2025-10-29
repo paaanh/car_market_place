@@ -32,5 +32,11 @@ public class Car {
     @ElementCollection
     @CollectionTable(name = "car_images", joinColumns = @JoinColumn(name = "car_id"))
     @Column(name = "url")
-    private List<String> images;  // Thư viện ảnh
+    private List<String> images;
+
+    @OneToMany(mappedBy = "car", cascade = CascadeType.ALL, orphanRemoval = true)
+    private List<Booking> bookings;
+
+    @OneToMany(mappedBy = "car", cascade = CascadeType.ALL, orphanRemoval = true)
+    private List<Favorite> favorites;// Thư viện ảnh
 }
