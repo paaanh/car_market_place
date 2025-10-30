@@ -20,7 +20,7 @@ const Index = () => {
     },
     {
       id: 2,
-      image: "https://images.unsplash.com/photo-1617531653520-b3e9e22d50e5?w=800&q=80",
+      image : "https://images.unsplash.com/photo-1649869623242-f351cb05d3eb?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=765",
       make: "Mercedes",
       model: "AMG GT",
       year: 2023,
@@ -44,7 +44,7 @@ const Index = () => {
     },
     {
       id: 4,
-      image: "https://images.unsplash.com/photo-1610768764270-790fbec18178?w=800&q=80",
+      image : "https://images.unsplash.com/photo-1716558964076-1abe07448abf?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=1170",
       make: "Tesla",
       model: "Model S Plaid",
       year: 2024,
@@ -55,7 +55,7 @@ const Index = () => {
     },
     {
       id: 5,
-      image: "https://images.unsplash.com/photo-1580414057673-3a9bafd6f7b4?w=800&q=80",
+      image : "https://cdn.oto360.net/images/car/audi/a7_trang_2408.webp",
       make: "Audi",
       model: "RS7 Sportback",
       year: 2023,
